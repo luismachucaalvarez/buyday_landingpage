@@ -35316,7 +35316,7 @@ video {
   }
 
   .xl\:bg-hero-pattern {
-    background-image: url('/build/img/img_hero.jpg');
+    background-image: url('img/img_hero.jpg');
   }
 
   .xl\:from-black {
