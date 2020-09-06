@@ -4,7 +4,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "build": "postcss css/estilos.css -o build/css/styles.css"
+        "build": "postcss css/estilos.css -o css/styles.css"
     },
     "keywords": [],
     "author": "",

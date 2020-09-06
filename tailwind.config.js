@@ -38,7 +38,7 @@ module.exports = {
             top: 'top',
         },
         backgroundImage: theme => ({
-            'hero-pattern': "url('/build/img/img_hero.jpg')",
+            'hero-pattern': "url('/img/img_hero.jpg')",
         }),
         extend: {
             opacity: {
