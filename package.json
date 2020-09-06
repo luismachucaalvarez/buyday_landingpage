@@ -1,0 +1,21 @@
+{
+    "name": "prebuyday",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "postcss css/estilos.css -o build/css/styles.css"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "autoprefixer": "^9.8.6",
+        "postcss-cli": "^7.1.2",
+        "tailwindcss": "^1.8.2",
+        "tailwindcss-gradients": "^3.0.0"
+    },
+    "devDependencies": {
+        "tailwindcss-pseudo-elements": "^1.1.2"
+    }
+}
