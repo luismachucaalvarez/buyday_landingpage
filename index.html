@@ -15,28 +15,13 @@
         .hero {
             position: relative;
         }
-        
-        .hero:after {
-            content: '';
-            background-color: rgba(0, 0, 0, .5);
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-        }
-        
-        .contenido-hero {
-            color: white;
-            position: relative;
-            z-index: 1;
-            text-align: center;
-        }
     </style>
 
 </head>
 
 <body>
     <header class="bg-gradient-bl-lightblue-violet-with-stops h-20">
+        <!--Header -->
         <nav class="flex items-center justify-between flex-wrap bg-grey-darkest p-4 w-full z-10 pin-t">
             <div class="flex items-center flex-no-shrink text-white mr-6">
                 <a class="text-white no-underline hover:text-white hover:no-underline" href="#">
@@ -68,48 +53,115 @@
             </div>
         </nav>
     </header>
-    <div class="bg-hero-pattern bg-center bg-cover  text-center pb-40 pt-40">
-        <h2 class="text-black p-4 text-5xl font-bold">¡Bienvenidos a BuyDay.cl!</h2>
-        <p class="text-black pb-4 font-medium">Este es un espacio de preinscripción para vendedores, que hemos creado previo al lanzamiento del sitio de ventas, que está en el horno y estamos seguros que les encantará.</p>
+    <!-- Fin header -->
+    <section class="bg-hero-pattern bg-center bg-cover  text-center pb-40 pt-40">
+        <!-- Seccion Hero-->
+        <div class="container">
+            <h2 class="text-black p-4 text-5xl font-bold">¡Bienvenidos a BuyDay.cl!</h2>
+            <p class="text-black pb-4 text-lg font-medium">Este es un espacio de preinscripción para vendedores, que hemos creado previo al lanzamiento del sitio de ventas, que está en el horno y estamos seguros que les encantará.</p>
 
-        <a href="#" class="rounded bg-violet text-white p-3 font-bold inline-block mb-16">Preinscribirse</a>
-        <a href="#" class="rounded bg-white text-violet p-3 font-bold inline-block mb-16">Quiero saber más</a>
+            <a href="#" class="rounded bg-violet text-white p-3 font-bold inline-block mb-16">Preinscribirse</a>
+            <a href="#" class="rounded bg-white text-violet p-3 font-bold inline-block mb-16">Quiero saber más</a></div>
 
-    </div>
-    <section class="p-4">
-        <div class="py-4 flex md:flex-row">
-            <div class="p-4">
+
+    </section>
+    <!-- Fin sección hero -->
+    <section class="container">
+        <!-- Seccion quienes somos -->
+        <div class="py-8 flex flex-wrap">
+            <div class="px-4 w-full sm:w-full md:w-1/2 lg:w-1/2">
                 <div class="border-b-8 border-violet">
-                    <h3 class="text-2xl uppercase italic">¿Quienes somos?</h3>
+                    <h3 class="text-2xl uppercase italic font-bold">¿Quienes somos?</h3>
                 </div>
-                <div class="py-4">
-                    <p>¿Qué quiénes somos?, tienen razón… conozcámonos primero. Somos BUYDAY.CL, un nuevo portal de venta de e-Commerce en formato Marketplace, para ustedes y sus productos, damos el espacio para la publicación de productos, ya sea para emprendedores
+                <div class="py-4 ">
+                    <p class="lg:text-xl">¿Qué quiénes somos?, tienen razón… conozcámonos primero. Somos BUYDAY.CL, un nuevo portal de venta de e-Commerce en formato Marketplace, para ustedes y sus productos, damos el espacio para la publicación de productos, ya sea para emprendedores
                         o pequeñas empresas, lo más importante es apoyar a empresas chilenas o que desempeñen en nuestro territorio, y obviamente, con la calidad que los destaca. </p>
                 </div>
 
             </div>
-            <div>
-                <img src="./img/img_quienessomos.jpg" alt="¿Quienes somos?">
+            <div class=" w-full md:w-1/2">
+                <img src="./img/img_quienessomos.jpg" alt="¿Quienes somos?" class="h-full w-full object-cover">
             </div>
         </div>
-        <div class="py-4 flex md:flex-row-reverse">
-            <div class="p-4 ">
+        <div class="py-8 flex md:flex-row-reverse flex-wrap">
+            <div class="px-4 w-full sm:w-full md:w-1/2 lg:w-1/2">
                 <div class="border-b-8 border-violet">
-                    <h3 class="text-2xl uppercase italic">Nuestro principal foco</h3>
+                    <h3 class="text-2xl uppercase italic font-bold">Nuestro principal foco</h3>
                 </div>
                 <div class="py-4">
-                    <p>Es dar una vitrina de calidad para emprendedores como pequeños y medianos productores chilenos o extranjeros pero que operen en nuestro país, pasando a ser al mismo tiempo un apoyo en la venta de sus productos, donde esperamos cooperar
+                    <p class="lg:text-xl">Es dar una vitrina de calidad para emprendedores como pequeños y medianos productores chilenos o extranjeros pero que operen en nuestro país, pasando a ser al mismo tiempo un apoyo en la venta de sus productos, donde esperamos cooperar
                         de forma importante en el desarrollo y crecimiento de cada vendedor.</p>
                 </div>
 
             </div>
-            <div>
-                <img src="./img/img_nuestrofoco.jpg" alt="¿Quienes somos?">
+            <div class=" w-full md:w-1/2">
+                <img src="./img/img_nuestrofoco.jpg" alt="¿Quienes somos?" class="h-full w-full object-cover">
             </div>
         </div>
     </section>
+    <!-- Fin sección quienes somos -->
+
+    <section class="bg-lightgrayishred">
+        <!-- Que hacemos-->
+        <div class="py-4">
+            <div class="container border-b-8 border-violet">
+                <h2 class="text-3xl uppercase italic text-center font-bold">Lo qué podemos ofrecer</h2>
+            </div>
+            <div class="container py-8">
+                <p class="text-center">Dispondremos para ustedes una interesante plataforma, donde podrás crear tu propia tienda y subir los productos que necesitas vender. Pero nuestra intención no es quedarnos solo con eso:</p>
+                <div class="py-8 grid md:grid-cols-2 lg:grid-cols-4">
+                    <div class="p-4">
+                        <img class="h-32 w-full object-contain" src="/img/img_servicio1.png" alt="">
+                        <h3 class="py-4 text-4x1 text-center uppercase font-bold">Tus productos, tu imagen</h3>
+                        <p class=" py-2 text-center">Tendrás tu propia tienda. Nosotros nos preocupamos de vender, tú de poner tus productos en vitrina y tu marca.</p>
+                    </div>
+                    <div class="p-4">
+                        <img class="h-32 w-full object-contain" src="/img/img_servicio2.png" alt="">
+                        <h3 class="py-4 text-4x1 text-center uppercase font-bold">Una avanzada plataforma administrativa</h3>
+                        <p class=" py-2 text-center">A través de la misma consola de administración podrás ver información detallada de tus ventas, tus publicaciones que ya se encuentran en línea, tráfico, entre otras funciones.</p>
+                    </div>
+                    <div class="p-4">
+                        <img class="h-32 w-full object-contain" src="/img/img_servicio3.png" alt="">
+                        <h3 class="py-4 text-4x1 text-center uppercase font-bold">Del marketing no te preocupes</h3>
+                        <p class=" py-2 text-center">Nos encargaremos de realizar constantes campañas de marketing, en diferentes medios y plataformas. Tú solo te encargas de publicar tus productos.
+                        </p>
+                    </div>
+                    <div class="p-4">
+                        <img class="h-32 w-full object-contain" src="/img/img_servicio4.png" alt="">
+                        <h3 class="py-4 text-4x1 text-center uppercase font-bold">¿No cuentas con despacho?</h3>
+                        <p class=" py-2 text-center">No hay problema, nosotros nos encargamos de la logística y la entrega de los productos a tus clientes
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- Fin que hacemos-->
+    <section class="bg-subhero-pattern bg-center bg-cover  text-center pb-40">
+        <!-- Seccion Hero-->
+        <div class="container">
+            <div class="container border-b-8 border-violet">
+                <h2 class="text-3xl uppercase italic text-left font-bold">Todo esto a cambio de una comisión por cada venta</h2>
+            </div>
+            <p class="pt-20 text-2xl text-left">De esta forma, podemos seguir creciendo para ustedes. Esta comisión dependerá de la categoría de tus productos.</p>
 
 
+
+    </section>
+
+
+    <!--<section>
+        <div>
+            <h3>Formulario</h3>
+
+        </div>
+        <form action="" method="post"></form>
+    </section>
+    <footer>
+
+    </footer>-->
 
     <script>
         //Javascript to toggle the menu

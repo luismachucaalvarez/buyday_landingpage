@@ -14,7 +14,8 @@ module.exports = {
             black: '#000',
             white: '#fff',
             violet: '#a614fd',
-            lightblue: '#14b6fd'
+            lightblue: '#14b6fd',
+            lightgrayishred: '#E6E0E0'
         },
         linearGradientColors: {
             'lightblue-violet-with-stops': ['#14b6fd', '#a614fd', '#14b6fd', '#635efd', '#14b6fd 6.26%', '#a614fd 100%']
@@ -39,6 +40,7 @@ module.exports = {
         },
         backgroundImage: theme => ({
             'hero-pattern': "url('/img/img_hero.jpg')",
+            'subhero-pattern': "url('/img/img_subhero.jpg')",
         }),
         extend: {
             opacity: {
@@ -52,17 +54,6 @@ module.exports = {
     variants: {},
     plugins: [
         require('tailwindcss-gradients'),
-        function({ addUtilities }) {
-            const extendUnderline = {
-                '.underline': {
 
-
-                    'border-bottom': '1px solid #000',
-                    'padding-bottom': '3px'
-                },
-            }
-
-            addUtilities(extendUnderline)
-        }
     ],
 }
