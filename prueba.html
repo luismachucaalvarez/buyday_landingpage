@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slim-select/1.26.0/slimselect.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/slim-select/1.26.0/slimselect.min.css" rel="stylesheet"></link>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="bg-lightgrayishred">
+        <div class="container flex flex-wrap">
+            <div class="px-4 w-full sm:w-full md:w-1/2 lg:w-1/2">
+                <h2>Únete a nosotros</h2>
+                <p>No pierdas la oportunidad de seguir vendiendo, somos una ventanita, pero nos convertiremos en un ventanal para ti…</p>
+            </div>
+
+
+            <form action="" method="post" class="w-full max-w-lg">
+                <div class="flex flex-wrap -mx-3 mb-6">
+                    <div class="w-full md:w-1/2 px-4 mb-6 md:mb-0">
+                        <label class="block uppercase tracking-wide text-black text-xs font-bold mb-1" for="grid-first-name">
+                            Nombre
+                        </label>
+
+                        <input class="appearance-none block w-full bg-gray-200 text-violet border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="casillero-nombre" type="text" placeholder="Indique su nombre">
+                    </div>
+                    <div class="w-full md:w-1/2 px-4 mb-6 md:mb-0">
+                        <label class="block uppercase tracking-wide text-black text-xs font-bold mb-1" for="grid-first-name " for="cargo ">
+                            Cargo
+                        </label>
+                        <select class="appearance-none block w-full bg-gray-200 text-violet border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white " id="seleccion-cargo" type="text" name=" " id=" ">
+                            <option value="1" selected>Indique su cargo</option>
+                            <option value="2">Opción 1</option>
+                            <option value="3">Opción 2</option>
+                            <option value="4">Opción 3</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="flex flex-wrap -mx-3 mb-6">
+                    <div class="w-full md:w-1/2 px-4 mb-6 md:mb-0">
+                        <label class="block uppercase tracking-wide text-black text-xs font-bold mb-1" for="grid-first-name">
+                            ¿Con iniciación de actividades?
+                        </label>
+                        <select class="appearance-none block w-full bg-gray-200 text-violet border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white " id="seleccion-iniciacion" name=" " id=" " placeholder="Seleccione una opción">
+                            <option value="1">Seleccione una opción</option>
+                            <option value="2">Sí</option>
+                            <option value="3">No</option>
+                        </select>
+                    </div>
+                    <div class="w-full md:w-1/2 px-4 mb-6 md:mb-0">
+                        <label class="block uppercase tracking-wide text-black text-xs font-bold mb-1" for="grid-first-name">
+                            RUT comercio:
+                        </label>
+                        <input class="appearance-none block w-full bg-gray-200 text-violet border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="casillero-rut" type="text" placeholder="XXXXXXXX-X">
+                    </div>
+                </div>
+                <div class="flex flex-wrap -mx-3 mb-6">
+                    <div class="w-full px-4 mb-6 md:mb-0">
+                        <label class="block uppercase tracking-wide text-black text-xs font-bold mb-1" for="grid-first-name">
+                            Razón social:
+                        </label>
+                        <input class="appearance-none block w-full bg-gray-200 text-violet border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="casillero-razonsocial" type="text" placeholder="Indique la razón social del comercio">
+                    </div>
+
+                </div>
+                <div class="flex flex-wrap -mx-3 mb-6">
+                    <div class="w-full px-4 mb-6 md:mb-0">
+                        <label class="block uppercase tracking-wide text-black text-xs font-bold mb-1" for="grid-first-name">
+                            Nombre fantasía comercio: 
+                        </label>
+                        <input class="appearance-none block w-full bg-gray-200 text-violet border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="casillero-nombrefantasia" type="text" placeholder="Indique nombre de fantasía de tu comercio">
+                    </div>
+
+                </div>
+                <div class="flex flex-wrap -mx-3 mb-6">
+                    <div class="w-full px-4 mb-6 md:mb-0">
+                        <label class="block uppercase tracking-wide text-black text-xs font-bold mb-1" for="grid-first-name" for="">
+                            Escoja las categorias de productos que deseas vender:
+                        </label>
+                        <select class="appearance-none block w-full bg-gray-200 text-violet border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white " name="" id="categorias" multiple>
+                            <option value="motos y automoviles">Motos y Automóviles</option>
+                            <option value="movilidad electrica">Movilidad eléctrica</option>
+                            <option value="herramientas electricas e inalambricas">Herramientas Eléctricas e inalámbricas</option>
+                            <option value="accesorios camaras y fotografia">Accesorios cámaras y fotografía</option>
+                            <option value="comida y panales para bebe">Comida y pañales para bebé</option>
+                            <option value="ferreteria y herramientas manuales">Ferretería y herramientas manuales</option>
+                            <option value="supermercado">Supermercado</option>
+                            <option value="vinos y licores">Vinos y licores</option>
+                            <option value="accesorios telefonia movil y fija">Accesorios telefonía móvil y fija</option>
+                            <option value="accesorios computacion">Accesorios computación</option>
+                            <option value="colchones">Colchones</option>
+                            <option value="musica y peliculas">Música y películas</option>
+                            <option value="perfumes y fragancias">Perfumes y fragancias</option>
+                            <option value="mundo mascotas y accesorios">Mundo Mascotas y accesorios</option>
+                            <option value="muebles">Muebles</option>
+                            <option value="jugueteria niños y bebes">Juguetería niños y bebés</option>
+                            <option value="hobby y entretencion">Hobby y entretención</option>
+                            <option value="relojes y lentes">Relojes y lentes</option>
+                            <option value="alimento de mascotas">Alimento de mascotas</option>
+                            <option value="salud y cuidado personal">Salud y cuidado personal</option>
+                            <option value="tienda del fan">Tienda del Fan (Fanshop)</option>
+                            <option value="alimentación especial">Alimentación especial</option>
+                            <option value="deportes, accesorios y maquinas de ejercicio">Deportes, accesorios y Máquinas de ejercicio</option>
+                            <option value="Articulos casa y jardin">Artículos casa y jardín</option>
+                            <option value="mochilas, bolsos y maleteria">Mochilas, bolsos y maletería</option>
+                            <option value="alimentos gourmet y seleccionados">Alimentos Gourmet y seleccionados</option>
+                            <option value="oficina y papeleria">Oficina y papelería</option>
+                            <option value="ropa deportiva">Ropa deportiva</option>
+                            <option value="moda, Ropa y Accesorios">Moda, Ropa y Accesorios</option>
+                        </select>
+                    </div>
+                </div>
+
+
+                <div class="flex flex-wrap -mx-3 mb-6">
+                    <div class="w-full md:w-1/2 px-4 mb-6 md:mb-0">
+                        <label class="block uppercase tracking-wide text-black text-xs font-bold mb-1" for="grid-first-name">
+                            Número de contacto
+                        </label>
+
+                        <input class="appearance-none block w-full bg-gray-200 text-violet border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="casillero-telefono" type="tel" placeholder="+56 X XXXXXXXX">
+                    </div>
+                    <div class="w-full md:w-1/2 px-4 mb-6 md:mb-0">
+                        <label class="block uppercase tracking-wide text-black text-xs font-bold mb-1" for="grid-first-name " for="cargo ">Correo de contacto</label>
+                        <input class="appearance-none block w-full bg-gray-200 text-violet border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="tel" placeholder="nombre@ejemplo.cl">
+
+                    </div>
+                </div>
+
+                <button type="submit ">Enviar</button>
+                <button type="reset ">Reiniciar</button>
+
+
+
+            </form>
+
+
+
+        </div>
+
+
+    </section>
+    <script>
+        new SlimSelect({
+            select: '#categorias',
+            selectByGroup: true,
+            placeholder: 'Sin categorias escogidas'
+        })
+    </script>
+</body>
+
+</html>

@@ -9231,35 +9231,35 @@ video {
 }
 
 .bg-gradient-t-lightblue-violet-with-stops {
-  background-image: linear-gradient(to top, #14b6fd, #a614fd, #14b6fd, #635efd, #14b6fd 6.26%, #a614fd 100%);
+  background-image: linear-gradient(to top, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
 }
 
 .bg-gradient-tr-lightblue-violet-with-stops {
-  background-image: linear-gradient(to top right, #14b6fd, #a614fd, #14b6fd, #635efd, #14b6fd 6.26%, #a614fd 100%);
+  background-image: linear-gradient(to top right, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
 }
 
 .bg-gradient-r-lightblue-violet-with-stops {
-  background-image: linear-gradient(to right, #14b6fd, #a614fd, #14b6fd, #635efd, #14b6fd 6.26%, #a614fd 100%);
+  background-image: linear-gradient(to right, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
 }
 
 .bg-gradient-br-lightblue-violet-with-stops {
-  background-image: linear-gradient(to bottom right, #14b6fd, #a614fd, #14b6fd, #635efd, #14b6fd 6.26%, #a614fd 100%);
+  background-image: linear-gradient(to bottom right, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
 }
 
 .bg-gradient-b-lightblue-violet-with-stops {
-  background-image: linear-gradient(#14b6fd, #a614fd, #14b6fd, #635efd, #14b6fd 6.26%, #a614fd 100%);
+  background-image: linear-gradient(#4158D0 0%, #C850C0 46%, #FFCC70 100%);
 }
 
 .bg-gradient-bl-lightblue-violet-with-stops {
-  background-image: linear-gradient(to bottom left, #14b6fd, #a614fd, #14b6fd, #635efd, #14b6fd 6.26%, #a614fd 100%);
+  background-image: linear-gradient(to bottom left, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
 }
 
 .bg-gradient-l-lightblue-violet-with-stops {
-  background-image: linear-gradient(to left, #14b6fd, #a614fd, #14b6fd, #635efd, #14b6fd 6.26%, #a614fd 100%);
+  background-image: linear-gradient(to left, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
 }
 
 .bg-gradient-tl-lightblue-violet-with-stops {
-  background-image: linear-gradient(to top left, #14b6fd, #a614fd, #14b6fd, #635efd, #14b6fd 6.26%, #a614fd 100%);
+  background-image: linear-gradient(to top left, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
 }
 
 @media (min-width: 640px) {
@@ -17842,35 +17842,35 @@ video {
   }
 
   .sm\:bg-gradient-t-lightblue-violet-with-stops {
-    background-image: linear-gradient(to top, #14b6fd, #a614fd, #14b6fd, #635efd, #14b6fd 6.26%, #a614fd 100%);
+    background-image: linear-gradient(to top, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
   }
 
   .sm\:bg-gradient-tr-lightblue-violet-with-stops {
-    background-image: linear-gradient(to top right, #14b6fd, #a614fd, #14b6fd, #635efd, #14b6fd 6.26%, #a614fd 100%);
+    background-image: linear-gradient(to top right, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
   }
 
   .sm\:bg-gradient-r-lightblue-violet-with-stops {
-    background-image: linear-gradient(to right, #14b6fd, #a614fd, #14b6fd, #635efd, #14b6fd 6.26%, #a614fd 100%);
+    background-image: linear-gradient(to right, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
   }
 
   .sm\:bg-gradient-br-lightblue-violet-with-stops {
-    background-image: linear-gradient(to bottom right, #14b6fd, #a614fd, #14b6fd, #635efd, #14b6fd 6.26%, #a614fd 100%);
+    background-image: linear-gradient(to bottom right, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
   }
 
   .sm\:bg-gradient-b-lightblue-violet-with-stops {
-    background-image: linear-gradient(#14b6fd, #a614fd, #14b6fd, #635efd, #14b6fd 6.26%, #a614fd 100%);
+    background-image: linear-gradient(#4158D0 0%, #C850C0 46%, #FFCC70 100%);
   }
 
   .sm\:bg-gradient-bl-lightblue-violet-with-stops {
-    background-image: linear-gradient(to bottom left, #14b6fd, #a614fd, #14b6fd, #635efd, #14b6fd 6.26%, #a614fd 100%);
+    background-image: linear-gradient(to bottom left, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
   }
 
   .sm\:bg-gradient-l-lightblue-violet-with-stops {
-    background-image: linear-gradient(to left, #14b6fd, #a614fd, #14b6fd, #635efd, #14b6fd 6.26%, #a614fd 100%);
+    background-image: linear-gradient(to left, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
   }
 
   .sm\:bg-gradient-tl-lightblue-violet-with-stops {
-    background-image: linear-gradient(to top left, #14b6fd, #a614fd, #14b6fd, #635efd, #14b6fd 6.26%, #a614fd 100%);
+    background-image: linear-gradient(to top left, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
   }
 }
 
@@ -26454,35 +26454,35 @@ video {
   }
 
   .md\:bg-gradient-t-lightblue-violet-with-stops {
-    background-image: linear-gradient(to top, #14b6fd, #a614fd, #14b6fd, #635efd, #14b6fd 6.26%, #a614fd 100%);
+    background-image: linear-gradient(to top, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
   }
 
   .md\:bg-gradient-tr-lightblue-violet-with-stops {
-    background-image: linear-gradient(to top right, #14b6fd, #a614fd, #14b6fd, #635efd, #14b6fd 6.26%, #a614fd 100%);
+    background-image: linear-gradient(to top right, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
   }
 
   .md\:bg-gradient-r-lightblue-violet-with-stops {
-    background-image: linear-gradient(to right, #14b6fd, #a614fd, #14b6fd, #635efd, #14b6fd 6.26%, #a614fd 100%);
+    background-image: linear-gradient(to right, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
   }
 
   .md\:bg-gradient-br-lightblue-violet-with-stops {
-    background-image: linear-gradient(to bottom right, #14b6fd, #a614fd, #14b6fd, #635efd, #14b6fd 6.26%, #a614fd 100%);
+    background-image: linear-gradient(to bottom right, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
   }
 
   .md\:bg-gradient-b-lightblue-violet-with-stops {
-    background-image: linear-gradient(#14b6fd, #a614fd, #14b6fd, #635efd, #14b6fd 6.26%, #a614fd 100%);
+    background-image: linear-gradient(#4158D0 0%, #C850C0 46%, #FFCC70 100%);
   }
 
   .md\:bg-gradient-bl-lightblue-violet-with-stops {
-    background-image: linear-gradient(to bottom left, #14b6fd, #a614fd, #14b6fd, #635efd, #14b6fd 6.26%, #a614fd 100%);
+    background-image: linear-gradient(to bottom left, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
   }
 
   .md\:bg-gradient-l-lightblue-violet-with-stops {
-    background-image: linear-gradient(to left, #14b6fd, #a614fd, #14b6fd, #635efd, #14b6fd 6.26%, #a614fd 100%);
+    background-image: linear-gradient(to left, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
   }
 
   .md\:bg-gradient-tl-lightblue-violet-with-stops {
-    background-image: linear-gradient(to top left, #14b6fd, #a614fd, #14b6fd, #635efd, #14b6fd 6.26%, #a614fd 100%);
+    background-image: linear-gradient(to top left, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
   }
 }
 
@@ -35066,35 +35066,35 @@ video {
   }
 
   .lg\:bg-gradient-t-lightblue-violet-with-stops {
-    background-image: linear-gradient(to top, #14b6fd, #a614fd, #14b6fd, #635efd, #14b6fd 6.26%, #a614fd 100%);
+    background-image: linear-gradient(to top, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
   }
 
   .lg\:bg-gradient-tr-lightblue-violet-with-stops {
-    background-image: linear-gradient(to top right, #14b6fd, #a614fd, #14b6fd, #635efd, #14b6fd 6.26%, #a614fd 100%);
+    background-image: linear-gradient(to top right, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
   }
 
   .lg\:bg-gradient-r-lightblue-violet-with-stops {
-    background-image: linear-gradient(to right, #14b6fd, #a614fd, #14b6fd, #635efd, #14b6fd 6.26%, #a614fd 100%);
+    background-image: linear-gradient(to right, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
   }
 
   .lg\:bg-gradient-br-lightblue-violet-with-stops {
-    background-image: linear-gradient(to bottom right, #14b6fd, #a614fd, #14b6fd, #635efd, #14b6fd 6.26%, #a614fd 100%);
+    background-image: linear-gradient(to bottom right, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
   }
 
   .lg\:bg-gradient-b-lightblue-violet-with-stops {
-    background-image: linear-gradient(#14b6fd, #a614fd, #14b6fd, #635efd, #14b6fd 6.26%, #a614fd 100%);
+    background-image: linear-gradient(#4158D0 0%, #C850C0 46%, #FFCC70 100%);
   }
 
   .lg\:bg-gradient-bl-lightblue-violet-with-stops {
-    background-image: linear-gradient(to bottom left, #14b6fd, #a614fd, #14b6fd, #635efd, #14b6fd 6.26%, #a614fd 100%);
+    background-image: linear-gradient(to bottom left, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
   }
 
   .lg\:bg-gradient-l-lightblue-violet-with-stops {
-    background-image: linear-gradient(to left, #14b6fd, #a614fd, #14b6fd, #635efd, #14b6fd 6.26%, #a614fd 100%);
+    background-image: linear-gradient(to left, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
   }
 
   .lg\:bg-gradient-tl-lightblue-violet-with-stops {
-    background-image: linear-gradient(to top left, #14b6fd, #a614fd, #14b6fd, #635efd, #14b6fd 6.26%, #a614fd 100%);
+    background-image: linear-gradient(to top left, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
   }
 }
 
@@ -43678,34 +43678,34 @@ video {
   }
 
   .xl\:bg-gradient-t-lightblue-violet-with-stops {
-    background-image: linear-gradient(to top, #14b6fd, #a614fd, #14b6fd, #635efd, #14b6fd 6.26%, #a614fd 100%);
+    background-image: linear-gradient(to top, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
   }
 
   .xl\:bg-gradient-tr-lightblue-violet-with-stops {
-    background-image: linear-gradient(to top right, #14b6fd, #a614fd, #14b6fd, #635efd, #14b6fd 6.26%, #a614fd 100%);
+    background-image: linear-gradient(to top right, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
   }
 
   .xl\:bg-gradient-r-lightblue-violet-with-stops {
-    background-image: linear-gradient(to right, #14b6fd, #a614fd, #14b6fd, #635efd, #14b6fd 6.26%, #a614fd 100%);
+    background-image: linear-gradient(to right, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
   }
 
   .xl\:bg-gradient-br-lightblue-violet-with-stops {
-    background-image: linear-gradient(to bottom right, #14b6fd, #a614fd, #14b6fd, #635efd, #14b6fd 6.26%, #a614fd 100%);
+    background-image: linear-gradient(to bottom right, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
   }
 
   .xl\:bg-gradient-b-lightblue-violet-with-stops {
-    background-image: linear-gradient(#14b6fd, #a614fd, #14b6fd, #635efd, #14b6fd 6.26%, #a614fd 100%);
+    background-image: linear-gradient(#4158D0 0%, #C850C0 46%, #FFCC70 100%);
   }
 
   .xl\:bg-gradient-bl-lightblue-violet-with-stops {
-    background-image: linear-gradient(to bottom left, #14b6fd, #a614fd, #14b6fd, #635efd, #14b6fd 6.26%, #a614fd 100%);
+    background-image: linear-gradient(to bottom left, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
   }
 
   .xl\:bg-gradient-l-lightblue-violet-with-stops {
-    background-image: linear-gradient(to left, #14b6fd, #a614fd, #14b6fd, #635efd, #14b6fd 6.26%, #a614fd 100%);
+    background-image: linear-gradient(to left, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
   }
 
   .xl\:bg-gradient-tl-lightblue-violet-with-stops {
-    background-image: linear-gradient(to top left, #14b6fd, #a614fd, #14b6fd, #635efd, #14b6fd 6.26%, #a614fd 100%);
+    background-image: linear-gradient(to top left, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
   }
 }

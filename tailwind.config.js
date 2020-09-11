@@ -18,7 +18,8 @@ module.exports = {
             lightgrayishred: '#E6E0E0'
         },
         linearGradientColors: {
-            'lightblue-violet-with-stops': ['#14b6fd', '#a614fd', '#14b6fd', '#635efd', '#14b6fd 6.26%', '#a614fd 100%']
+            //'lightblue-violet-with-stops': ['#14b6fd', '#a614fd', '#14b6fd', '#635efd', '#14b6fd 6.26%', '#a614fd 100%']
+            'lightblue-violet-with-stops': ['#4158D0 0%', '#C850C0 46%', '#FFCC70 100%']
         },
         backgroundSize: {
             'auto': 'auto',
