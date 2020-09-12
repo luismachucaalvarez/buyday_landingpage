@@ -3,9 +3,10 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/styles.css">
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slim-select/1.26.0/slimselect.min.js"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/slim-select/1.26.0/slimselect.min.css" rel="stylesheet"></link>
+    <link rel="stylesheet" href="css/styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
@@ -15,74 +16,101 @@
         <div class="container flex flex-wrap">
             <div class="px-4 w-full sm:w-full md:w-1/2 lg:w-1/2">
                 <h2>Únete a nosotros</h2>
-                <p>No pierdas la oportunidad de seguir vendiendo, somos una ventanita, pero nos convertiremos en un ventanal para ti…</p>
+                <p>No pierdas la oportunidad de seguir vendiendo, somos tu nueva ventana para potenciales compradores. Nos convertiremos en tu aliado en el aumento de tus ventas.</p>
             </div>
 
 
-            <form action="" method="post" class="w-full max-w-lg">
-                <div class="flex flex-wrap -mx-3 mb-6">
-                    <div class="w-full md:w-1/2 px-4 mb-6 md:mb-0">
-                        <label class="block uppercase tracking-wide text-black text-xs font-bold mb-1" for="grid-first-name">
+            <form action="" method="post" class="w-full max-w-lg bg-white rounded py-8 px-4">
+                <div class="flex flex-wrap -mx-3">
+                    <div class="w-full md:w-1/2 py-2 px-3">
+                        <label class="block uppercase tracking-wide text-black text-xs font-bold mb-1" for="casillero-nombre">
                             Nombre
                         </label>
 
-                        <input class="appearance-none block w-full bg-gray-200 text-violet border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="casillero-nombre" type="text" placeholder="Indique su nombre">
+                        <input class="appearance-none block w-full bg-gray-200 text-violet border border-red-500 rounded py-2 px-3 leading-tight focus:outline-none focus:bg-white" id="casillero-nombre" type="text" placeholder="Indique su nombre">
                     </div>
-                    <div class="w-full md:w-1/2 px-4 mb-6 md:mb-0">
-                        <label class="block uppercase tracking-wide text-black text-xs font-bold mb-1" for="grid-first-name " for="cargo ">
-                            Cargo
+                    <div class="w-full md:w-1/2 py-2 px-3 md:mb-0">
+                        <label class="block uppercase tracking-wide text-black text-xs font-bold mb-1" for="casillero-telefono">
+                            Número de contacto
                         </label>
-                        <select class="appearance-none block w-full bg-gray-200 text-violet border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white " id="seleccion-cargo" type="text" name=" " id=" ">
-                            <option value="1" selected>Indique su cargo</option>
-                            <option value="2">Opción 1</option>
-                            <option value="3">Opción 2</option>
-                            <option value="4">Opción 3</option>
-                        </select>
+
+                        <input class="appearance-none block w-full bg-gray-200 text-violet border border-red-500 rounded py-2 px-3 leading-tight focus:outline-none focus:bg-white" id="casillero-telefono" type="tel" placeholder="+56 X XXXXXXXX">
+
                     </div>
                 </div>
-                <div class="flex flex-wrap -mx-3 mb-6">
-                    <div class="w-full md:w-1/2 px-4 mb-6 md:mb-0">
+                <div class="flex flex-wrap -mx-3">
+                    <div class="w-full py-2 px-3 md:mb-0">
+                        <label class="block uppercase tracking-wide text-black text-xs font-bold mb-1" for="grid-first-name " for="casillero-correo ">Correo de contacto</label>
+                        <input class="appearance-none block w-full bg-gray-200 text-violet border border-red-500 rounded py-2 px-3 leading-tight focus:outline-none focus:bg-white" id="casillero-correo" type="email" placeholder="nombre@ejemplo.cl">
+
+                    </div>
+
+                </div>
+                <div class="flex flex-wrap -mx-3">
+                    <div class="w-full md:w-1/2 py-2 px-3 md:mb-0">
                         <label class="block uppercase tracking-wide text-black text-xs font-bold mb-1" for="grid-first-name">
                             ¿Con iniciación de actividades?
                         </label>
-                        <select class="appearance-none block w-full bg-gray-200 text-violet border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white " id="seleccion-iniciacion" name=" " id=" " placeholder="Seleccione una opción">
-                            <option value="1">Seleccione una opción</option>
-                            <option value="2">Sí</option>
-                            <option value="3">No</option>
-                        </select>
+                        <div class="form-switch inline-block align-middle">
+                            <input type="checkbox" name="check_iniciacion" id="check_iniciacion" class="form-switch-checkbox" onclick="chequeoIniciacion()" />
+                            <label class="form-switch-label" for="check_iniciacion"></label>
+                        </div>
+                        <label id="frase_iniciacion" class="text-xs text-grey-dark" for="check_iniciacion">No</label>
+
                     </div>
-                    <div class="w-full md:w-1/2 px-4 mb-6 md:mb-0">
-                        <label class="block uppercase tracking-wide text-black text-xs font-bold mb-1" for="grid-first-name">
+                    <div class="w-full md:w-1/2 py-2 px-3 md:mb-0">
+                        <label class="block uppercase tracking-wide text-black text-xs font-bold mb-1" for="casillero-rut">
                             RUT comercio:
                         </label>
-                        <input class="appearance-none block w-full bg-gray-200 text-violet border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="casillero-rut" type="text" placeholder="XXXXXXXX-X">
+                        <input class="appearance-none block w-full bg-gray-200 text-violet border border-red-500 rounded py-2 px-3 leading-tight focus:outline-none focus:bg-white" id="casillero-rut" type="text" placeholder="XXXXXXXX-X" disabled>
                     </div>
                 </div>
-                <div class="flex flex-wrap -mx-3 mb-6">
-                    <div class="w-full px-4 mb-6 md:mb-0">
-                        <label class="block uppercase tracking-wide text-black text-xs font-bold mb-1" for="grid-first-name">
+                <div class="flex flex-wrap -mx-3">
+                    <div class="w-full py-2 px-3 md:mb-0">
+                        <label class="block uppercase tracking-wide text-black text-xs font-bold mb-1" for="casillero-razonsocial">
                             Razón social:
                         </label>
-                        <input class="appearance-none block w-full bg-gray-200 text-violet border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="casillero-razonsocial" type="text" placeholder="Indique la razón social del comercio">
+                        <input class="appearance-none block w-full bg-gray-200 text-violet border border-red-500 rounded py-2 px-3 leading-tight focus:outline-none focus:bg-white elemento-sujeto-iniciacion" id="casillero-razonsocial" type="text" placeholder="Indique la razón social del comercio"
+                            disabled>
                     </div>
 
                 </div>
-                <div class="flex flex-wrap -mx-3 mb-6">
-                    <div class="w-full px-4 mb-6 md:mb-0">
-                        <label class="block uppercase tracking-wide text-black text-xs font-bold mb-1" for="grid-first-name">
+                <div class="flex flex-wrap -mx-3">
+                    <div class="w-full py-2 px-3 md:mb-0">
+                        <label class="block uppercase tracking-wide text-black text-xs font-bold mb-1" for="casillero-nombrefantasia">
                             Nombre fantasía comercio: 
                         </label>
-                        <input class="appearance-none block w-full bg-gray-200 text-violet border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="casillero-nombrefantasia" type="text" placeholder="Indique nombre de fantasía de tu comercio">
+                        <input class="appearance-none block w-full bg-gray-200 text-violet border border-red-500 rounded py-2 px-3 leading-tight focus:outline-none focus:bg-white" id="casillero-nombrefantasia" type="text" placeholder="Indique nombre de fantasía de tu comercio"
+                            disabled>
                     </div>
 
+
                 </div>
-                <div class="flex flex-wrap -mx-3 mb-6">
-                    <div class="w-full px-4 mb-6 md:mb-0">
-                        <label class="block uppercase tracking-wide text-black text-xs font-bold mb-1" for="grid-first-name" for="">
+                <div class="flex flex-wrap -mx-3">
+                    <div class="w-full py-2 px-3 md:mb-0">
+                        <label class="block uppercase tracking-wide text-black text-xs font-bold mb-1" for="seleccion-cargo">
+                            Cargo
+                        </label>
+                        <div class="relative">
+                            <select class="appearance-none block w-full bg-gray-200 text-violet border border-red-500 rounded py-2 px-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="seleccion-cargo" type="text" name=" " id=" " disabled>
+                                <option value="1" selected>Indique su cargo</option>
+                                <option value="2">Opción 1</option>
+                                <option value="3">Opción 2</option>
+                                <option value="4">Opción 3</option>
+                            </select>
+                            <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
+                                <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-wrap -mx-3">
+                    <div class="w-full py-2 px-3 md:mb-0">
+                        <label class="block uppercase tracking-wide text-black text-xs font-bold mb-1" for="seleccion-categorias" for="">
                             Escoja las categorias de productos que deseas vender:
                         </label>
-                        <select class="appearance-none block w-full bg-gray-200 text-violet border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white " name="" id="categorias" multiple>
-                            <option value="motos y automoviles">Motos y Automóviles</option>
+                        <select class="appearance-none block w-full bg-gray-200 text-violet border border-red-500 rounded py-2 px-3 leading-tight focus:outline-none focus:bg-white  " name="" id="seleccion-categorias" multiple>
+                            <option  value="motos y automoviles">Motos y Automóviles</option>
                             <option value="movilidad electrica">Movilidad eléctrica</option>
                             <option value="herramientas electricas e inalambricas">Herramientas Eléctricas e inalámbricas</option>
                             <option value="accesorios camaras y fotografia">Accesorios cámaras y fotografía</option>
@@ -111,28 +139,26 @@
                             <option value="oficina y papeleria">Oficina y papelería</option>
                             <option value="ropa deportiva">Ropa deportiva</option>
                             <option value="moda, Ropa y Accesorios">Moda, Ropa y Accesorios</option>
+                            <option value="otra">Otras</option>
                         </select>
                     </div>
                 </div>
 
-
-                <div class="flex flex-wrap -mx-3 mb-6">
-                    <div class="w-full md:w-1/2 px-4 mb-6 md:mb-0">
-                        <label class="block uppercase tracking-wide text-black text-xs font-bold mb-1" for="grid-first-name">
-                            Número de contacto
-                        </label>
-
-                        <input class="appearance-none block w-full bg-gray-200 text-violet border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="casillero-telefono" type="tel" placeholder="+56 X XXXXXXXX">
-                    </div>
-                    <div class="w-full md:w-1/2 px-4 mb-6 md:mb-0">
-                        <label class="block uppercase tracking-wide text-black text-xs font-bold mb-1" for="grid-first-name " for="cargo ">Correo de contacto</label>
-                        <input class="appearance-none block w-full bg-gray-200 text-violet border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="email" placeholder="nombre@ejemplo.cl">
-
+                <div class="flex flex-wrap -mx-3">
+                    <div class="w-full py-2 px-3 md:mb-0">
+                        <label class="inline-flex items-center mt-3">
+                        <input type="checkbox" class="form-checkbox h-5 w-5 text-violet" checked><span class="ml-2 text-violet">Estoy de acuerdo con las condiciones del servicio, así como también de la política de privacidad.</span>
+                    </label>
                     </div>
                 </div>
 
-                <button type="submit ">Enviar</button>
-                <button type="reset ">Reiniciar</button>
+                <div class="flex flex-wrap -mx-3">
+                    <div class="w-full py-2 px-3 md:mb-0">
+                        <button class="bg-violet text-white font-bold py-2 px-4 rounded" type="submit ">Enviar</button>
+                        <button class="bg-white text-violet font-bold border border-violet py-2 px-4 rounded" type="reset ">Reiniciar</button>
+                    </div>
+
+                </div>
 
 
 
@@ -145,8 +171,31 @@
 
     </section>
     <script>
+        function chequeoIniciacion() {
+            let checkIniciacion = document.getElementById('check_iniciacion');
+            let textoIniciacion = document.getElementById('frase_iniciacion');
+            let casilleroRut = document.getElementById('casillero-rut');
+            let casilleroRazonSocial = document.getElementById('casillero-razonsocial');
+            let casilleroNombrefantasia = document.getElementById('casillero-nombrefantasia');
+            let seleccionCargo = document.getElementById('seleccion-cargo');
+            if (checkIniciacion.checked == true) {
+                textoIniciacion.innerText = 'Sí';
+                casilleroRut.disabled = false;
+                casilleroRazonSocial.disabled = false;
+                casilleroNombrefantasia.disabled = false;
+                seleccionCargo.disabled = false;
+            } else {
+                textoIniciacion.innerText = 'No';
+                casilleroRut.disabled = true;
+                casilleroRazonSocial.disabled = true;
+                casilleroNombrefantasia.disabled = true;
+                seleccionCargo.disabled = true;
+                casilleroRut.focus;
+            }
+        }
+
         new SlimSelect({
-            select: '#categorias',
+            select: '#seleccion-categorias',
             selectByGroup: true,
             placeholder: 'Sin categorias escogidas'
         })

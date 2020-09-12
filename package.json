@@ -13,7 +13,8 @@
         "autoprefixer": "^9.8.6",
         "postcss-cli": "^7.1.2",
         "tailwindcss": "^1.8.2",
-        "tailwindcss-gradients": "^3.0.0"
+        "tailwindcss-gradients": "^3.0.0",
+        "tailwindcss-toggle": "github:TowelSoftware/tailwindcss-toggle"
     },
     "devDependencies": {
         "tailwindcss-pseudo-elements": "^1.1.2"
